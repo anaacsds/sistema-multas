@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Multas</title>
+    <!--Colocar favicon aqui depois!-->
+    <link rel="stylesheet" href="multas.css"> <!--Linkando CSS-->
+</head>
+
+<body>
+    <header> <!--Cabeçário do site-->
+        <h1>Sistema de Multas</h1>
+    </header>
+    <main> <!--Contéudo principal do site-->
+        <p>Velocidade do carro: <input type="number" name="vel" id="vel"> Km/h</p> <!--Input do tipo número-->
+        <input type="button" value="Verificar" onclick="ver()"> <!--Input do tipo botão com valor "Verificar" escrito dentro, quando for clicado vai disparar a função "ver()"-->
+        <div id="res"></div> <!--Para ler a resposta da velocidade do carro-->
+    </main>
+
+        <script src="multas.js"></script> <!--Linkando JS no final da página para a ser o último item a ser carregado-->
+</body>
+</html>
