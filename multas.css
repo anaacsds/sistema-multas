@@ -1,0 +1,31 @@
+* { /*para zerar formatação inicial do site*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite; /*cor de fundo do site*/
+}
+
+h1 {
+    padding: 20px; 
+    text-align: center; /*alihando no centro*/
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#verific {
+    width: 100%; /* ocupa a largura total*/
+    padding: 10px; /*aumenta a altura interna*/
+    font-size: 18px; 
+    background-color: rgb(250, 215, 235);
+}
+
+#vel {
+    padding: 5px;
+    background-color: rgb(250, 215, 235);
+}
